@@ -1,0 +1,12 @@
+Bundle-Name: packageExporter
+Bundle-SymbolicName: packageExporter
+Bundle-Version: 1.0.0
+
+Bundle-ClassPath: .
+  #,bin/com.liferay.site.admin.web.1.0.59.jar
+
+#-includeresource: \
+	#bin/com.liferay.site.admin.web.1.0.59.jar=com.liferay.site.admin.web.1.0.59.jar
+
+Export-Package: \
+	com.liferay.site.admin.web.internal.portlet
